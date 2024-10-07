@@ -247,6 +247,12 @@ def eliminar_producto(id):
 def index():
     return render_template('index.html')
 
+# Ruta para PREGUNTAS FRECEUNTES
+@app.route('/FAQ')
+def faq():
+    return render_template('FAQ.html')
+
+
 # Ruta para el dashboard del cliente
 
 
